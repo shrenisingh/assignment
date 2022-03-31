@@ -214,8 +214,8 @@ class _LogoCard extends StatelessWidget {
           ),
           child: Column(
             children: <Widget>[
-              v
-            //  SvgPicture.asset("assets/images/icons/logo.svg"),
+              
+              SvgPicture.asset("assets/images/icons/logo.svg"),
               gapTop(20),
               
             ],
