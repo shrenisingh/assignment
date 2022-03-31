@@ -5,7 +5,7 @@ import 'package:assignment/ui/loading.dart';
 import 'package:assignment/utils/helpers/size.dart';
 import 'package:assignment/utils/helpers/style.dart';
 import 'package:assignment/view/ProfileScreen/profile_screen.dart';
-
+import 'package:lottie/lottie.dart';
 import 'package:assignment/widgets/custom_date_picker.dart';
 import 'package:assignment/widgets/custom_textform_field.dart';
 import 'package:assignment/widgets/rectangle_expandable_button.dart';
@@ -215,8 +215,8 @@ class _LogoCard extends StatelessWidget {
           child: Column(
             children: <Widget>[
               
-              SvgPicture.asset("assets/images/icons/logo.svg"),
-              gapTop(20),
+              Lottie.asset("assets/splash.json"),
+              
               
             ],
           ),
